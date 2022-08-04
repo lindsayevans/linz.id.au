@@ -30,7 +30,12 @@
   },
   "homepage": "https://github.com/lindsayevans/linz.id.au#readme",
   "devDependencies": {
+    "@parcel/optimizer-data-url": "^2.7.0",
+    "@parcel/transformer-inline-string": "^2.7.0",
     "@parcel/transformer-sass": "^2.7.0",
     "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.9.1"
   }
 }
