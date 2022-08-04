@@ -13,25 +13,46 @@ body {
   align-items: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: #e3e3e3;
+  background: #e3e3e3
+    radial-gradient(
+      circle at 90% 90%,
+      #999999,
+      #9b9b9b,
+      #9f9f9f,
+      #a6a6a6,
+      #afafaf,
+      #b8b8b8,
+      #c2c2c2,
+      #cccccc,
+      #d5d5d5,
+      #dcdcdc,
+      #e1e1e1,
+      #e3e3e3
+    );
   color: #111;
 
-  @media (min-width: 1024px) {
+  $responsive-transition: all 1.5s ease-in-out;
+
+  @media (min-width: 420px) {
     flex-direction: row;
+    transition: $responsive-transition;
 
     header {
       align-items: flex-end;
       padding-right: 1rem;
       border-right: 0.125rem solid #6666;
+      transition: $responsive-transition;
 
       h1 {
         margin-top: 0;
         margin-bottom: 0.5rem;
+        transition: $responsive-transition;
       }
 
       p {
         margin-top: 0.5rem;
         margin-bottom: 0;
+        transition: $responsive-transition;
       }
     }
   }
@@ -54,12 +75,14 @@ h1 {
   font-weight: 100;
   line-height: 3rem;
   letter-spacing: -1px;
+  text-align: center;
 }
 
 p {
   margin: 1rem;
   font-size: 1.125rem;
   font-weight: 200;
+  text-align: center;
 }
 
 footer {

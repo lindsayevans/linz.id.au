@@ -1,6 +1,6 @@
 {
   "name": "linz.id.au",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "https://linz.id.au/",
   "source": "src/index.html",
   "engines": {
