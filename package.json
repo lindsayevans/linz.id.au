@@ -1,0 +1,41 @@
+{
+  "name": "linz.id.au",
+  "version": "1.0.0",
+  "description": "https://linz.id.au/",
+  "source": "src/index.html",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "targets": {
+    "modern": {
+      "engines": {
+        "browsers": ">= 50%"
+      }
+    }
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindsayevans/linz.id.au.git"
+  },
+  "keywords": [],
+  "author": "Lindsay Evans <linz@linz.id.au>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lindsayevans/linz.id.au/issues"
+  },
+  "homepage": "https://github.com/lindsayevans/linz.id.au#readme",
+  "devDependencies": {
+    "@parcel/optimizer-data-url": "^2.7.0",
+    "@parcel/transformer-inline-string": "^2.7.0",
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.9.1"
+  }
+}
