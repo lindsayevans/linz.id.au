@@ -2,7 +2,7 @@
 
 _The special sauce behind [linz.id.au](https://linz.id.au/)_
 
-Actually nothing too special - single HTML + Sass + TypeScript page, built using [Parcel](https://parceljs.org/)
+Actually nothing too special - single HTML + Sass page, built using [Parcel](https://parceljs.org/)
 
 Uses [Bootstrap Icons
 ](https://icons.getbootstrap.com/) for the socials
