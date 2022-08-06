@@ -36,7 +36,7 @@
     "parcel": "^2.7.0"
   },
   "dependencies": {
-    "@microsoft/applicationinsights-web-basic": "^2.8.6",
+    "@microsoft/applicationinsights-web-basic": "^2.8.7-nightly.2208-05",
     "bootstrap-icons": "^1.9.1"
   }
 }
