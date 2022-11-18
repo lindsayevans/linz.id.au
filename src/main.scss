@@ -96,7 +96,7 @@ footer {
       display: block;
       padding: 0.5rem;
       opacity: 0.666;
-      transition: all 0.3s ease-in-out;
+      transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 
       &:hover,
       &:active {
