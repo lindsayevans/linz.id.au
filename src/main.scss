@@ -115,3 +115,10 @@ footer {
     }
   }
 }
+
+.spin {
+  transition: all 0.8s ease-in;
+  &:hover {
+    transform: rotate(360deg);
+  }
+}
